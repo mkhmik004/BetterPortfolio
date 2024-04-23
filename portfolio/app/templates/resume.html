@@ -1,0 +1,464 @@
+
+{% extends "layout.html" %}
+{% block title %}
+    Education
+{% endblock %}
+{% block main %}
+
+
+    <!-- ======= End Page Header ======= -->
+    <section  class=" page-header hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>EDUCATION</h2>
+            <p>
+              I'm a versatile Software Developer with a unique journey. While I initially pursued Economics and Finance at the University of Cape Town, my passion for technology led me down a different path.</p><p>Embracing this change, I've immersed myself in the world of software development, combining insights from my UCT studies with cutting-edge skills acquired through Harvard's CS50 Computer Science program and self-learning endeavors through books.</p><p> This blend of academic foundation and technical expertise equips me to tackle challenges head-on and deliver innovative solutions.
+
+            </p>
+              <a href="/contact" class="btn-get-started">Available for hire</a>
+              <a class="btn-get-started mt-3" href="{{ url_for('static', filename='resume/resume.pdf') }}" download="MarkMkhabeleResume.pdf" target="_blank">
+                Download my Resume
+               </a>   
+          </div>
+      </div>
+    </div><!-- End Page Header -->
+</section>
+
+    <!-- ======= About Section ======= -->
+   
+    
+
+    <section id="about" class="about mt-5 ">
+      <div class="container mb-4"> <!-- Added mb-4 class -->
+          <div class="row justify-content-center">
+              <div class="col-lg-6">
+                  <div class="d-flex align-items-center mb-4 text-white text-center p-4">
+                      <div class="">
+                          <!-- Harvard logo with adjusted size -->
+                          <img loading="lazy" src="/assets/img/harvard_logo.png" style="width: 150px; height: auto; border-radius: 50%;" alt="Harvard Logo">
+                      </div>
+                      <h2 class="fw-bolder mb-0"><span class="text-gradient d-inline">HARVARD Computer Science CS50 program</span></h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="custom-line mb-5"></div>
+  
+      <div class="container mb-4" style="padding: 20px;">
+    <div class="row gy-4 justify-content-center">
+      <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <span class="text-warning d-block">(!Working on Final Capstones, Certifications Coming Soon!)</span>
+            </div>
+        </div>
+    </div>
+    
+        <!-- Course 1 -->
+        <div class="col-lg-5 col-md-6">
+            <div class="text-center">
+                <h4>1. CS50P-Python programming</h4>
+                <button type="button" class="btn custom-bg-color text-white" data-bs-toggle="modal" data-bs-target="#certificateModal1">Certificate</button>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#courseInfo1" aria-expanded="false" aria-controls="courseInfo1">More</button>
+                <div class="collapse mt-3 custom-bg-color p-4 rounded" id="courseInfo1">
+                    <p>This course covers a comprehensive range of Python programming topics including functions, variables, conditionals, loops, exceptions, libraries, unit tests, file I/O, regular expressions, and object-oriented programming concepts.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="col-lg-5 col-md-6">
+            <div class="text-center">
+                <h4>2. CS50X-Intro to Computer Science
+                </h4>
+                <button type="button" class="btn custom-bg-color text-white" data-bs-toggle="modal" data-bs-target="#certificateModal2">Certificate</button>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#courseInfo2" aria-expanded="false" aria-controls="courseInfo2">More</button>
+                <div class="collapse mt-3 custom-bg-color p-4 rounded" id="courseInfo2">
+                    <p>This course covers a comprehensive range of topics including C, arrays, algorithms, memory, data structures, Python, SQL, HTML, CSS, JavaScript, and Flask.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Course 3 -->
+        <div class="col-lg-5 col-md-6">
+            <div class="text-center">
+                <h4>3. CS50W-Programming with Python and JavaScript
+                    <span class="text-warning d-block">*</span>
+                </h4>
+                <button type="button" class="btn custom-bg-color text-white" data-bs-toggle="modal" data-bs-target="#certificateModal3">Certificate</button>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#courseInfo3" aria-expanded="false" aria-controls="courseInfo3">More</button>
+                <div class="collapse mt-3 custom-bg-color p-4 rounded" id="courseInfo3">
+                    <p>This course covers a comprehensive range of topics including HTML, CSS, Git, Python, Django, SQL, models, migrations, JavaScript, user interfaces, testing, CI/CD, scalability, and security.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course 4 -->
+        <div class="col-lg-5 col-md-6">
+            <div class="text-center">
+                <h4>4. CS50AI-Introduction to AI with Python
+                    <span class="text-warning d-block">*</span>
+                </h4>
+                <button type="button" class="btn custom-bg-color text-white" data-bs-toggle="modal" data-bs-target="#certificateModal4">Certificate</button>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#courseInfo4" aria-expanded="false" aria-controls="courseInfo4">More</button>
+                <div class="collapse mt-3 custom-bg-color p-4 rounded" id="courseInfo4">
+                    <p>This course covers a comprehensive range of topics including search, knowledge, uncertainty, optimization, learning, neural networks, and language.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Course 5 -->
+        <div class="col-lg-5 col-md-6">
+            <div class="text-center">
+                <h4>5. CS50SQL-Introduction to Databases with SQL</h4>
+                <button type="button" class="btn custom-bg-color text-white" data-bs-toggle="modal" data-bs-target="#certificateModal5">Certificate</button>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#courseInfo5" aria-expanded="false" aria-controls="courseInfo4">More</button>
+                <div class="collapse mt-3 custom-bg-color p-4 rounded" id="courseInfo5">
+                    <p>
+                        <ul>
+                            <li>Design and create relational databases.</li>
+                            <li>Write SQL queries to retrieve, insert, update, and delete data from databases.</li>
+                            <li>Understand concepts such as primary keys, foreign keys, normalization, and indexing.</li>
+                            <li>Work with SQLite, a lightweight relational database management system (RDBMS), to practice database manipulation and querying.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+  </section>
+  <!-- Modal for Course 1 -->
+<div class="modal fade" id="certificateModal1" tabindex="-1" aria-labelledby="certificateModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="certificateModalLabel1">Certificate - CS50P-Python programming</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <!-- Certificate image -->
+              <img src="/assets/img/CS50P-CERTIFICATE.png"  loading="lazy" class="certification-img img-fluid" alt="Certificate 1">
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+  
+  <!-- Modal for Course 2 -->
+  <div class="modal fade" id="certificateModal2" tabindex="-1" aria-labelledby="certificateModalLabel2" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="certificateModalLabel2">Certificate - CS50X-Intro to Computer Science</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <!-- Certificate image -->
+                  <img src="/assets/img/" loading="lazy" class="certification-img img-fluid" alt="Certificate 2">
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <!-- Modal for Course 3 -->
+  <div class="modal fade" id="certificateModal3" tabindex="-1" aria-labelledby="certificateModalLabel3" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="certificateModalLabel3">Certificate - CS50W-Programming with Python and JavaScript</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <!-- Certificate image -->
+                  <img src="/assets/img/" loading="lazy" class="certification-img img-fluid" alt="Certificate 3">
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <!-- Modal for Course 4 -->
+  <div class="modal fade" id="certificateModal4" tabindex="-1" aria-labelledby="certificateModalLabel4" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="certificateModalLabel4">Certificate - CS50AI-Introduction to AI with Python</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <!-- Certificate image -->
+                  <img src="/assets/img/" loading="lazy" class="certification-img img-fluid" alt="Certificate 4">
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div><!-- Modal for Course 5 -->
+  <div class="modal fade" id="certificateModal5" tabindex="-1" aria-labelledby="certificateModalLabel5" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="certificateModalLabel5">Certificate - CS50AI-Introduction to AI with Python</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <!-- Certificate image -->
+                  <img src="/assets/img/CS50SQL-certificate.png" loading="lazy" class="certification-img img-fluid" alt="Certificate 5">
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  
+    
+    
+    
+    
+    
+  <section class="mb-5 mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-4 text-white text-center p-4">
+                    <div class="me-3">
+                        <!-- UCT logo -->
+                        <img loading="lazy" src="/assets/img/uct.png" alt="UCT Logo" style="width: 150px; height: auto; border-radius: 50%;">
+                    </div>
+                    <h2 class="fw-bolder"><span class="text-gradient d-inline">University of Cape Town BCom Economics & Finance</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="custom-line mb-5 mt-5"></div>
+
+    <div class="container">
+      <!-- List of Courses -->
+      <h1 class="text-center mb-5">Relevant Courses <span class="text-warning">(Only)</span></h1>
+      <div class="row">
+        <div class="col-lg-6">
+            <ol class="list-group">
+                <li class="list-group-item">1. CS1010-Intro to Python</li>
+                <li class="list-group-item">2. CS1016-Intro to Java</li>
+                <li class="list-group-item">3. MAM1000W-Mathematics 1</li>
+                <li class="list-group-item">4. STA1000-Introductory Statistics</li>
+                <li class="list-group-item">5. STA2020-Business Statistics</li>
+            </ol>
+        </div>
+        <div class="col-lg-6">
+            <ol class="list-group">
+                <li class="list-group-item">6. STA2030-Theory of Statistics</li>
+                <li class="list-group-item">7. PHI2043S- Business Ethics</li>
+                <li class="list-group-item">8. BUS3039-People Management</li>
+                <li class="list-group-item">9. BUS2033- Professional Communication</li>
+                <li class="list-group-item">10. ECO3021- Quantitative Methods for Economics</li>
+            </ol>
+        </div>
+    </div>
+    
+    
+      <!-- Carousel for Course Descriptions -->
+      <h1 class="text-center mb-5 mt-5">Course Discriptions</h1>
+      <div class="row mt-4">
+          <div class="col-lg-12">
+              <div id="courseCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <!-- Course 1 -->
+                      <div class="carousel-item active">
+                          <div class="container  ">
+                              <div class="row justify-content-center">
+                                  <div class="col-lg-8">
+                                      <div class="custom-bg-color rounded text-center custom-bg-color rounded">
+                                          <h4>1. CS1010-Intro to Python</h4>
+                                          <p>fundamental constructs, sorting, searching, machine representations, input/output, conditionals, loops, strings, functions, arrays, lists, dictionaries, recursion, text files, exceptions, testing, debugging, sorting algorithms, algorithm complexity, equivalence classes, number systems, binary arithmetic, Boolean algebra, and logic gates</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Course 2 -->
+                      <div class="carousel-item">
+                          <div class="container">
+                              <div class="row justify-content-center">
+                                  <div class="col-lg-8">
+                                      <div class="custom-bg-color rounded text-center">
+                                          <h4>2. CS1016-Intro to Java</h4>
+                                          <p>object-oriented design and programming in Java, as well as introducing important considerations relating to ethical and professional issue</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Course 3 -->
+<div class="carousel-item">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="custom-bg-color rounded text-center">
+                  <h4>3. MAM1000W-Mathematics 1</h4>
+                  <p>Differential and integral calculus of functions of one variable, differential equations, partial derivatives, vector geometry, matrix algebra, complex numbers, Taylor series</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Course 4 -->
+<div class="carousel-item">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="custom-bg-color rounded text-center">
+                  <h4>4. STA1000-Introductory Statistics</h4>
+                  <p>introduction to the study of Statistics and explores some of the foundations of the discipline including exploratory data analysis, probability and probability distributions, statistical inference, tests of association and regression.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Course 5 -->
+<div class="carousel-item">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="custom-bg-color rounded text-center">
+                  <h4>5. STA2020-Business Statistics</h4>
+                  <p>analysis of variance, simple and multiple regression, model building, time series analysis and non-parametric techniques</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Course 6 -->
+<div class="carousel-item">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="custom-bg-color rounded text-center">
+                  <h4>6. STA2030-Theory of Statistics</h4>
+                  <p>random variable, joint probability distributions, expected values, moment generating functions, univariate distributions and moments of univariate distributions, moments of bivariate distributions, distributions of sample statistics and regression analysis</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Course 7 -->
+<div class="carousel-item">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="custom-bg-color rounded text-center">
+                  <h4>7. PHI2043S- Business Ethics</h4>
+                  <p>In Business Ethics, I delved into diverse theoretical perspectives and their application to real-world scenarios. The course heightened my awareness of ethical dilemmas in business and enhanced my ability to discuss, analyze, and resolve them. Through critical thinking exercises and writing assignments, I sharpened my skills while expanding my understanding of both business practice and moral philosophy.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Course 8 -->
+<div class="carousel-item">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="custom-bg-color rounded text-center">
+                  <h4>8. BUS3039-People Management</h4>
+                  <p>in People Management, I learned about leadership, communication, and teamwork. I gained insights into different leadership styles and learned to provide feedback, resolve conflicts, and motivate team members. The course highlighted the importance of diversity and inclusion in the workplace. Overall, I acquired practical strategies for leading teams effectively.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Course 9 -->
+<div class="carousel-item">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="custom-bg-color rounded text-center">
+                  <h4>9. BUS2033- Professional Communication</h4>
+                  <p>In this course, I honed my skills in organizing information, mastering appropriate style and tone, and creating persuasive messages in diverse business formats. Through practical exercises, I navigated email etiquette, memo writing, and report creation. This course equipped me with the clarity and conciseness needed for impactful communication in the professional realm.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Course 10 -->
+<div class="carousel-item">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="custom-bg-color rounded text-center">
+                  <h4>10. ECO3021- Quantitative Methods for Economics</h4>
+                  <p>In ECO3021S, I immersed myself in quantitative methods in Economics, mastering both cross-sectional and time series econometrics. The course offered a balance of theory and practice, utilizing industry-standard tools such as R and Stata. Through rigorous study, I gained proficiency in single and multiple regression, hypothesis testing, and probability models. I also delved into the complexities of time series analysis, addressing autocorrelation and stationarity issues. This course equipped me with practical skills and a deeper understanding of multiple linear regressions, empowering me to explore diverse research topics in Economics with confidence and rigor.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#courseCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#courseCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+</section>
+
+    
+    
+
+    
+<section id="testimonials" class="testimonials mb-5">
+  <div class="container">
+    <div class="section-header">
+      <h2>Certifications</h2>
+      <p>Other Relevant Certifications</p>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5">
+            <div class="certification-item text-center">
+              <img loading="lazy" src="assets/img/certification1.jpeg" class="certification-img img-fluid" alt="Certificate 1" style="max-width: 80%; height: auto;">
+              <p>
+                I mastered the "Prompt Injection Attack Game," a cybersecurity challenge that hones skills in identifying and addressing language processing vulnerabilities. By crafting deceptive prompts, I successfully coerced a Large Language Model (LLM) into revealing passwords, demonstrating proficiency in mitigating prompt-based attacks.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="certification-item text-center">
+              <img loading="lazy" src="assets/img/certificate2.jpeg" class="certification-img img-fluid" alt="Certificate 2" style="max-width: 60%; height: auto;">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</section>
+
+
+    
+
+  
+
+  {% endblock %}
+  
+
+  

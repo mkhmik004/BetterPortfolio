@@ -1,0 +1,183 @@
+{% extends "layout.html" %}
+{% block title %}
+    Home
+{% endblock %}
+{% block main %}
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2>I'm <span>MARK MKHABELE</span> a Professional Software Developer </h2>
+          <p>I'm a backend developer fascinated by blockchain technology and its potential for Web 3.0. My focus is on building powerful backend solutions for dynamic web applications. While I haven't worked on RESTful APIs yet, I'm eager to learn and expand my skill set. Let's collaborate to bring your projects to life and explore new opportunities together.</p>
+          <a href="/contact" class="btn-get-started">Available for hire</a>
+          <a class="btn-get-started mt-3" href="{{ url_for('static', filename='resume/resume.pdf') }}" download="MarkMkhabeleResume.pdf" target="_blank">
+            Download my Resume
+        </a>        
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <div class="container text-center">
+    <h1 class="services-heading mb-5">My Services</h1>
+    <div class="custom-line mb-5"></div>
+  </div>
+  <section id="services" class="services">
+    <div class="container">
+      <div class="row gy-4">
+  
+
+  
+        <!-- Frontend Development -->
+        <div class="col-xl-6 col-md-6 d-flex">
+          <div class="service-item position-relative">
+            <i class="bi bi-display"></i>
+            <h4><a href="#">Frontend Development</a></h4>
+            <p>Design and develop engaging user interfaces and interactive experiences using HTML, CSS, and JavaScript frameworks(bootstrap).</p>
+          </div>
+        </div><!-- End Frontend Development -->
+  
+        <!-- Backend Development -->
+        <div class="col-xl-6 col-md-6 d-flex">
+          <div class="service-item position-relative">
+            <i class="bi bi-server"></i>
+            <h4><a href="#">Backend Development</a></h4>
+            <p>Build robust server-side applications using Model-View-Controller(Django) and Model-Template-View(flask) with database interaction (creating, inserting, and fetching data).</p>
+          </div>
+        </div><!-- End Backend Development -->
+        <!-- Data Analysis with R -->
+<div class="col-xl-6 col-md-6 d-flex">
+  <div class="service-item position-relative">
+    <i class="bi bi-graph-up"></i>
+    <h4><a href="#">Data Analysis with R</a></h4>
+    <p>Perform in-depth data analysis, statistical modeling, and data visualization using R programming language.</p>
+  </div>
+</div><!-- End Data Analysis with R -->
+<!-- Database Administration Services -->
+<div class="col-xl-6 col-md-6 d-flex">
+  <div class="service-item position-relative">
+    <i class="bi bi-database"></i>
+    <h4><a href="#">Database Administration</a></h4>
+    <p> Delivering comprehensive database administration expertise including installation, configuration, robust security management, performance optimization, reliable backup and recovery solutions, and effective troubleshooting to ensure seamless data operations and maximum system uptime.</p>
+  </div>
+</div>
+
+  
+      </div>
+    </div>
+    <div class="container text-center">
+      <h1 class="container text-center services-heading mb-5 mt-5">My Tech Stack</h1>
+      <div class="custom-line mb-5"></div>
+    </div>
+  </section>
+  <section id="backend" class="backend mt-5">
+    <div class="container text-center">
+      <h3>Programming languages</h3>
+      <!-- Backend technologies -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-python-plain" style="font-size: 40px;"></i>
+          <p>Python</p>
+        </div>
+                <!-- R -->
+       <div class="col-6 col-md-3 mb-3">
+           <i class="devicon-r-original" style="font-size: 45px;"></i>
+           <p>R</p>
+           
+      </div>
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-java-plain-wordmark" style="font-size: 48px;"></i>
+          <p>Java</p>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-c-plain-wordmark" style="font-size: 40px;"></i>
+          <p>C</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="backend" class="backend mt-5">
+    <div class="container text-center">
+      <h3>Backend Technologies</h3>
+      <!-- Backend technologies -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-django-plain-wordmark" style="font-size: 70px;"></i>
+          
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-flask-original-wordmark" style="font-size: 70px;"></i>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Backend Section -->
+  
+  <section id="frontend" class="frontend mt-5">
+    <div class="container text-center">
+      <h3>Frontend Technologies</h3>
+      <!-- Frontend technologies -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-html5-plain-wordmark" style="font-size: 45px;"></i>
+          <p>HTML</p>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-css3-plain-wordmark" style="font-size: 45px;"></i>
+          <p>CSS</p>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-javascript-plain" style="font-size: 45px;"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-bootstrap-plain-wordmark" style="font-size: 65px;"></i>
+         
+        </div>
+      </div>
+    </div>
+  </section><!-- End Frontend Section -->
+  
+  <section id="databases" class="databases mt-5">
+    <div class="container text-center">
+      <h3>Database Technologies</h3>
+      <!-- Database technologies -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-sqlite-plain" style="font-size: 45px;"></i>
+          <p>SQLite</p>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-mysql-plain" style="font-size: 45px;"></i>
+          <p>MySQL</p>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <i class="devicon-postgresql-plain" style="font-size: 45px;"></i>
+          <p>PostgreSQL</p>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Databases Section -->
+  
+  <section id="other-technologies" class="other-technologies mt-5">
+    <div class="container text-center">
+      <h3>Other Technologies</h3>
+      <!-- Other technologies -->
+      <div class="row justify-content-center mt-5">
+
+        <!-- Git -->
+        <div class="col-6 col-md-3 mb-5">
+          <i class="devicon-git-plain" style="font-size: 45px;"></i>
+          <p>Git</p>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Other Technologies Section -->
+  
+
+  
+  {% endblock %}

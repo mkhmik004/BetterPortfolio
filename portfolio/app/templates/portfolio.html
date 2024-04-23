@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+{% block title %}
+    Projects
+{% endblock %}
+{% block main %}
+
+
+
+    <!-- ======= End Page Header ======= -->
+    <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>PROJECTS</h2>
+            <p>Below are Projects i've worked on as either part of a course or freelance work</p>
+            <span class="text-warning d-block">(For more projects, visit my YouTube & GitHub at the bottom/top right)</span>
+
+            <a href="/contact" class="btn-get-started">Available for hire</a>
+            <a class="btn-get-started mt-3" href="{{ url_for('static', filename='resume/resume.pdf') }}" download="MarkMkhabeleResume.pdf" target="_blank">
+              Download my Resume
+          </a>  
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End Page Header -->
+
+<!-- End Services Section -->
+<section>
+  <div class="container mb-5">
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-10 text-center">
+        <!-- GitHub Stats Card -->
+        <a href="https://github.com/anuraghazra/github-readme-stats">
+          <img src="https://github-readme-stats.vercel.app/api?username=mkhmik004" alt="GitHub stats" style="width: 78%; max-width: 1200px; height: auto;">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+</section>
+    
+
+<section id="testimonials" class="testimonials mt-5">
+  <div class="container">
+    <div class="section-header">
+      <h2>Projects</h2>
+    </div>
+    <div class="row gy-4">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              
+              <div class="col-lg-6">
+                <div class="certification-item text-center mt-5">
+                  <h3>BetterFinance App</h3>
+                  <div class="container" >
+                  <img src="/assets/img/BF.png" loading="lazy" class="certification-img" alt="BirthdayApp" style="width: 78%; max-width: 1200px; height: auto;">
+                  </div>
+                  <p>BetterFinance is a robust web application designed for logged-in users to engage in various financial activities. Users have the ability to "buy & sell" stocks, "deposit & withdraw" demo money, and update or reset their login details. The application fetches real-time stock quotes from the IEX API, ensuring accurate data for informed decision-making. Additionally, users can conveniently monitor their stock portfolio and review transaction history to stay on top of their financial activities.<span class="text-warning d-block">"Username and Password to register, no sensitive information is required."</span></p>
+                  <div class="button-container mt-3 d-flex justify-content-center">
+                    <!-- software Demo Button -->
+                    <a href="https://mkhmik004.pythonanywhere.com" target="_blank" class="btn btn-success">Demo software</a>
+                    <!-- Source Code Button -->
+                    <a href="https://github.com/mkhmik004/Finance-application" target="_blank" class="btn btn-secondary ms-2">Source Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  </main><!-- End #main -->
+
+ 
+
+  {% endblock %}
+  
