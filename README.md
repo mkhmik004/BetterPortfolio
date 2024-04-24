@@ -6,7 +6,7 @@ This project features a professional web portfolio with an email server backend 
 
 ## Video Demo
 
-- URL: `<URL HERE>`
+- URL: `<[URL HERE](https://www.youtube.com/watch?v=5bVyB5epMek)>`
 
 The video demo showcases how the web portfolio and email server work together, including handling form submissions, sending automated replies, and keeping communication threads organized.
 
